@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/erickguan/ffi-icu.git
+  remote: git@github.com:erickguan/ffi-icu.git
   revision: 0c6f8b201f3994fa10c741ff5dbb146cb83f4a9d
   ref: 0c6f8b201f3994fa10c741ff5dbb146cb83f4a9d
   specs:
@@ -7,7 +7,7 @@ GIT
       ffi (~> 1.0, >= 1.0.9)
 
 GIT
-  remote: https://github.com/instructure/i18nliner.git
+  remote: git@github.com:instructure/i18nliner.git
   revision: 05084d8bdecbe6765e47a53486ad2b3b189a4356
   ref: ruby3
   specs:
@@ -23,14 +23,14 @@ GIT
       ya2yaml (= 0.31)
 
 GIT
-  remote: https://github.com/instructure/week-of-month.git
+  remote: git@github.com:instructure/week-of-month.git
   revision: b3013639e9474f302b5a6f27e4e45313e8d24902
   ref: b3013639e9474f302b5a6f27e4e45313e8d24902
   specs:
     week_of_month (1.2.5)
 
 GIT
-  remote: https://github.com/kreynolds/cassandra-cql.git
+  remote: git@github.com:kreynolds/cassandra-cql.git
   revision: 02b5abbe441a345c051a180327932566fd66bb36
   ref: 02b5abbe441a345c051a180327932566fd66bb36
   specs:
@@ -39,7 +39,7 @@ GIT
       thrift_client (>= 0.7.1, < 0.10)
 
 GIT
-  remote: https://github.com/kyler-instructure/rspecq.git
+  remote: git@github.com:kyler-instructure/rspecq.git
   revision: 8cea6a3225cf0856a26c6c6b93a5ea5605082aa0
   ref: 8cea6a3225cf0856a26c6c6b93a5ea5605082aa0
   specs:
@@ -50,7 +50,7 @@ GIT
       sentry-ruby
 
 GIT
-  remote: https://github.com/rails-api/active_model_serializers.git
+  remote: git@github.com:rails-api/active_model_serializers.git
   revision: 61882e1e4127facfe92e49057aec71edbe981829
   ref: 61882e1e4127facfe92e49057aec71edbe981829
   specs:
@@ -58,7 +58,7 @@ GIT
       activemodel (>= 3.2)
 
 GIT
-  remote: https://github.com/rda1902/spring-commands-rubocop.git
+  remote: git@github.com:rda1902/spring-commands-rubocop.git
   revision: 818acb74130ac95adf9e8733986d45c168e4a5f3
   ref: 818acb74130ac95adf9e8733986d45c168e4a5f3
   specs:
@@ -66,7 +66,7 @@ GIT
       spring (>= 1.0, < 5.0)
 
 GIT
-  remote: https://github.com/robotdana/json_schemer.git
+  remote: git@github.com:robotdana/json_schemer.git
   revision: 0d2ac359a87964f74c07a14cafeb98cfcae4e29f
   ref: 0d2ac359a87964f74c07a14cafeb98cfcae4e29f
   specs:
@@ -77,7 +77,7 @@ GIT
       uri_template (~> 0.7)
 
 GIT
-  remote: https://github.com/twitter/thrift_client.git
+  remote: git@github.com:twitter/thrift_client.git
   revision: 5c10d59881825cb8e26ab1aa8f1d2738e88c0e83
   ref: 5c10d59881825cb8e26ab1aa8f1d2738e88c0e83
   specs:

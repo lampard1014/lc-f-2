@@ -40,7 +40,7 @@ gem_override "switchman-inst-jobs", "4.0.13"
 gem "academic_benchmarks", "1.1.2", require: false
 gem "active_model-better_errors", "1.6.7", require: "active_model/better_errors"
 gem "active_model_serializers", "0.9.0alpha1",
-    github: "rails-api/active_model_serializers", ref: "61882e1e4127facfe92e49057aec71edbe981829"
+  git: "git@github.com:rails-api/active_model_serializers.git", ref: "61882e1e4127facfe92e49057aec71edbe981829"
 gem "activerecord-pg-extensions", "0.4.4"
 gem "addressable", "2.7.0", require: false
 gem "after_transaction_commit", "2.2.2"
@@ -80,7 +80,7 @@ gem "hashery", "2.1.2", require: false
 gem "highline", "2.0.3", require: false
 gem "httparty", "0.18.1"
 gem "i18n", "1.9.1"
-gem "i18nliner", "0.2.2", github: "instructure/i18nliner", ref: "ruby3"
+gem "i18nliner", "0.2.2", git: "git@github.com:instructure/i18nliner.git", ref: "ruby3"
   gem "ruby2ruby", "2.4.4", require: false
   gem "ruby_parser", "3.18.1", require: false
 gem "icalendar", "2.7.0", require: false
@@ -103,7 +103,7 @@ gem "inst-jobs-statsd", "2.2.0"
 # the json gem is installed, it will always use that one even before bundler
 # gets activated. Updating the gem in it's own commit will make this easier.
 gem "json", "~> 2.6.1"
-gem "json_schemer", "0.2.16", github: "robotdana/json_schemer", ref: "0d2ac359a87964f74c07a14cafeb98cfcae4e29f"
+gem "json_schemer", "0.2.16", git: "git@github.com:robotdana/json_schemer.git", ref: "0d2ac359a87964f74c07a14cafeb98cfcae4e29f"
   gem "ecma-re-validator", "0.2.1"
 gem "json-jwt", "1.13.0", require: false
 gem "link_header", "0.0.8"
@@ -154,7 +154,7 @@ gem "vault", "0.15.0", require: false
 gem "vericite_api", "1.5.3"
 gem "wcag_color_contrast", "0.1.0"
 gem "week_of_month", "1.2.5",
-    github: "instructure/week-of-month", ref: "b3013639e9474f302b5a6f27e4e45313e8d24902"
+  git: "git@github.com:instructure/week-of-month.git", ref: "b3013639e9474f302b5a6f27e4e45313e8d24902"
 gem "will_paginate", "3.3.0", require: false # required for folio-pagination
 
 # needs pin to satisfy varying requirements of google_drive and another gem
