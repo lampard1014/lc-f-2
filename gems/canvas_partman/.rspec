@@ -3,3 +3,4 @@
 --format doc
 --format html
 --out ../../tmp/spec_results/canvas_partman_results.html
+--format doc

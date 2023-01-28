@@ -2,3 +2,4 @@
 --format doc
 --format html
 --out ../../tmp/spec_results/canvas_mimetype_fu_results.html
+--format doc

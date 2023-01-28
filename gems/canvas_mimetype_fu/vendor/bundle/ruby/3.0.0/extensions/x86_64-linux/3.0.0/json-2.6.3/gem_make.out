@@ -1,0 +1,13 @@
+current directory: /var/canvas/gems/canvas_mimetype_fu/vendor/bundle/ruby/3.0.0/gems/json-2.6.3/ext/json
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230128-161618-pu4qv3.rb extconf.rb
+creating Makefile
+
+current directory: /var/canvas/gems/canvas_mimetype_fu/vendor/bundle/ruby/3.0.0/gems/json-2.6.3/ext/json
+make DESTDIR\= clean
+
+current directory: /var/canvas/gems/canvas_mimetype_fu/vendor/bundle/ruby/3.0.0/gems/json-2.6.3/ext/json
+make DESTDIR\=
+make: Nothing to be done for 'all'.
+
+current directory: /var/canvas/gems/canvas_mimetype_fu/vendor/bundle/ruby/3.0.0/gems/json-2.6.3/ext/json
+make DESTDIR\= install

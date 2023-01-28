@@ -30,6 +30,8 @@ class Setting < Switchman::UnshardedRecord
 
   def self.get(name, default, expires_in: nil, set_if_nx: false)
     cache.fetch(name, expires_in: expires_in) do
+              print "[debugsdfsdf]- "+name
+
       if @skip_cache && expires_in
         obj = Setting.find_by(name: name)
         Setting.set(name, default) if !obj && set_if_nx

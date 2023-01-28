@@ -3,3 +3,4 @@
 --format doc
 --format html
 --out ../../tmp/spec_results/canvas_quiz_statistics_results.html
+--format doc

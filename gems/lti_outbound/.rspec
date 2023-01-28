@@ -3,3 +3,4 @@
 --format doc
 --format html
 --out ../../tmp/spec_results/lti_outbound_results.html
+--format doc

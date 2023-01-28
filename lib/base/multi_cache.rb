@@ -25,17 +25,24 @@ class MultiCache
     def cache
       unless defined?(@multi_cache)
         ha_cache_config = YAML.safe_load(DynamicSettings.find(tree: :private, cluster: Canvas.cluster)["ha_cache.yml"] || "{}").symbolize_keys || {}
+
+
+
         @multi_cache = if ha_cache_config[:cache_store]
                          ha_cache_config[:url] = ha_cache_config[:servers] if ha_cache_config[:servers]
+#                         print "[fuckingtest2]" + ha_cache_config.to_s
                          ActiveSupport::Cache.lookup_store(ha_cache_config[:cache_store].to_sym, ha_cache_config)
                        else
                          config = Canvas.cache_store_config_for(Rails.env).dup || {}
                          # MultiCache has to have an expiration
                          config[:expires_in] ||= 300
+#                        print "[fuckingtest3]" + ha_cache_config.to_s
+#                         print "[fuckingtest4]" + config.to_s
                          Canvas.lookup_cache_store(config, Rails.env)
                        end
         @multi_cache.options.delete(:namespace) # remove the namespace that switchman added; MultiCache is global
       end
+#      print "[fuckingtest6] the mulit_cacheinstance:" + @multi_cache.nil?.to_s
       @multi_cache
     end
 

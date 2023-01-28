@@ -1,0 +1,22 @@
+current directory: /var/canvas/gems/canvas_quiz_statistics/vendor/bundle/ruby/3.0.0/gems/idn-ruby-0.1.5/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230128-156536-jbadeo.rb extconf.rb
+checking for -lidn... yes
+checking for idna.h... yes
+checking for punycode.h... yes
+checking for stringprep.h... yes
+creating Makefile
+
+current directory: /var/canvas/gems/canvas_quiz_statistics/vendor/bundle/ruby/3.0.0/gems/idn-ruby-0.1.5/ext
+make DESTDIR\= clean
+
+current directory: /var/canvas/gems/canvas_quiz_statistics/vendor/bundle/ruby/3.0.0/gems/idn-ruby-0.1.5/ext
+make DESTDIR\=
+compiling idn.c
+compiling idna.c
+compiling punycode.c
+compiling stringprep.c
+linking shared-object idn.so
+
+current directory: /var/canvas/gems/canvas_quiz_statistics/vendor/bundle/ruby/3.0.0/gems/idn-ruby-0.1.5/ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 idn.so ./.gem.20230128-156536-fadf5g
