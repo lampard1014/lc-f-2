@@ -6,7 +6,7 @@
   "module": "es/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/instructure/canvas-planner.git"
+    "url": "git+ssh://git@github.com:instructure/canvas-planner.git"
   },
   "scripts": {
     "i18n:extract": "format-message extract $(find src -name \"*.js\") -g underscored_crc32 -o locales/en.json",

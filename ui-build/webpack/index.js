@@ -65,6 +65,9 @@ const readOnlyCachePlugin = () => {
 }
 
 module.exports = {
+  stats: {
+    logging: 'verbose',
+  },
   mode: process.env.NODE_ENV,
   target: ['web', 'es2021'],
   ...((useBuildCache && {

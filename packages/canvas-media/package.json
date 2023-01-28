@@ -24,13 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/instructure/canvas-lms.git"
+    "url": "git+ssh://git@github.com:instructure/canvas-lms.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/instructure/canvas-lms/issues"
+    "url": "git+ssh://git@github.com:instructure/canvas-lms/issues"
   },
-  "homepage": "https://github.com/instructure/canvas-lms#readme",
+  "homepage": "git+ssh://git@github.com:instructure/canvas-lms#readme",
   "dependencies": {
     "@instructure/canvas-theme": "7",
     "@instructure/k5uploader": "*",

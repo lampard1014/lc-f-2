@@ -131,7 +131,7 @@
     "format-message-generate-id": "^6",
     "i18n-js": "^3",
     "isomorphic-fetch": "2.2.1",
-    "jquery": "https://github.com/instructure/jquery.git#1.7.2-with-AMD-and-CommonJS",
+    "jquery": "git+ssh://git@github.com:instructure/jquery.git#1.7.2-with-AMD-and-CommonJS",
     "js-beautify": "1",
     "keycode": "^2",
     "lodash": "^4",
@@ -147,7 +147,7 @@
     "redux": "^4",
     "redux-batch-middleware": "^0.2.0",
     "redux-thunk": "^2",
-    "scroll-into-view": "https://github.com/bkirkby/scroll-into-view.git#588b0ced98eeecf84e6fb2074aa076e80b7cffab",
+    "scroll-into-view": "git+ssh://git@github.com:bkirkby/scroll-into-view.git#588b0ced98eeecf84e6fb2074aa076e80b7cffab",
     "tinymce": "^5",
     "tinymce-a11y-checker": "^4.1.2",
     "text-field-edit": "^3.2.0"
